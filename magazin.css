@@ -1,0 +1,35 @@
+body {
+    max-width: 400px;
+    margin:0;
+    margin-top:10px;
+    padding:0;
+    font-size:20px;
+    background: #87CEFA
+}
+
+.inner{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    grid-template-rows: 200px 200px;
+}
+
+img{
+    width:150px
+}
+.item{
+    text-align:center;
+}
+
+.btn{
+    padding: 15px;
+    background:#5F9EA0 ;
+    color: white;
+    text-transform: uppercase;
+    border:none;
+    border-radius: 30px;
+    transition: background 0.35s ease;
+}
+
+.btn:hover{
+    background:#4682B4;
+}
