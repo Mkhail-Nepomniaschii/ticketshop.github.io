@@ -4,7 +4,7 @@ tg.expand();
 tg.MainButton.textColor='';
 tg.MainButton.color='#5F9EA0';
 
-let.item="";
+let item="";
 let btn1=document.getElementById("btn1");
 let btn2=document.getElementById("btn2");
 let btn3=document.getElementById("btn3");
